@@ -1,0 +1,17 @@
+{
+    "name": "fornecedor/miniframework",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [
+        {
+            "name": "wesley"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
